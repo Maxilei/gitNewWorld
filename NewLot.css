@@ -1,0 +1,222 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+.header {
+	overflow: visible;
+	position: fixed;
+	height: 3.1%;
+	top:0px;
+	left:0px;
+	right: 0px;
+	background-color: #262626 ;
+	}
+.right {
+	overflow: visible;
+	color: white;
+	float:right;
+	margin-top: 6px;
+	padding-left: 1.5%;
+	padding-right: 4%;
+	border-left: 4px solid #EEE;
+}
+#marge {
+	margin-right: 5%;
+}
+
+.menu_Droite{
+	margin-right: 20%;
+	overflow: visible;
+}
+.menu {
+	position: fixed;
+	height: 6.8%;
+	top:3.1%;
+	right:0px;
+	left:0px;
+	background-color: #666 ;
+	background-image:linear-gradient(#555555, #202020);
+	overflow: visible;
+
+}
+
+.ensembleBoutonMenu{
+	font-size: 9px;
+	font-weight: bold;
+	padding-right: 0%;
+	padding-left: 4%;
+	overflow: visible;
+	margin-top: -5px;
+}
+
+.menuBouton_recherche {	
+	color: white;
+	height: 30px;
+	vertical-align:5px;
+	border-radius: 15px;
+	appearance: none;
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top :-4px;
+	background-image:linear-gradient(black,grey);
+	//background-image: url(Loupe_recherche.jpg);
+	//background-size: 25px;
+	//background-repeat: no-repeat;
+	//background-position: -5px;
+	width: 150%;
+	border-width: 0.02em ;
+	border-left-width: 10px;
+	border-left-color: transparent;
+	overflow: auto;
+}
+
+.menuBouton {
+	color:red;
+	overflow: visible;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	display: inline-block;
+	padding-left:13%;
+	margin-top: 25px;
+
+}
+
+.grosNW{
+	overflow: visible;
+	font-family: Arial;
+	color: white;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: -3.7%;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 4px 9px 1px #000;
+	animation-name: anim;
+	animation-duration: 15sec;
+	animation-iteration-count: infinite;
+}
+.grosNW:first-letter{
+	font-weight: normal;
+	animation-name: anim;
+	animation-duration: 15sec;
+	animation-iteration-count: infinite;
+}
+
+.Footer{
+	font-family: arial;
+	font-size: 15.5px;
+	color:white;
+	position: fixed;
+	text-align: right;
+	top: 96%;
+	height:4%;
+	left:0%;
+	right: 0%;
+	padding-right: 1%;
+	padding-top: 0.51%;
+	background-color: #1E1E1F;
+}
+
+input,select{
+	display: inline-block;
+	margin-top: 1.5%;
+	width: 20%;
+	background-image:linear-gradient(#51545A,#1E1E1F);
+	display: inline-block;
+	color: white;
+	height: 25px;
+	vertical-align:5px;
+	border-radius: 15px;
+	appearance: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top :1.5%;
+	background-image:linear-gradient(black,grey);
+	width: 20%;
+	border-width: 0.02em ;
+	border-left-width: 10px;
+	border-left-color: transparent;
+	overflow: auto;
+	-moz-appearance: none;
+}
+
+label{
+	color: white;
+}
+legend{
+	color: white;
+}
+
+.Lot{
+	position: fixed;
+	background-color: grey;
+	width: 99.7%;
+	left:0%;
+	top: 9.9%;
+	height: 85.7%;
+ 	border-right-width:2%;
+ 	border-style:solid;
+ 	border-color:black;
+}
+
+.type_produit{
+	-moz-appearance:radio ;
+	width: 2%;
+	vertical-align: -50%;
+}
+
+.Distrib{
+	position: fixed;
+	width: 35%;
+	left:55%;
+	top: 43%;
+	height: 40%;
+}
+
+.ListeDistrib{
+	height: 20%;
+	width: 50%;
+}
+
+
+
+/*select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select-wrapper {
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.select-wrapper:before {
+    color: #ccc;
+    content: "\f0c9";
+    display: inline-block;
+    font: 16px "FontAwesome";
+    padding: 9px;
+    pointer-events: none;
+    position: absolute;
+}*/

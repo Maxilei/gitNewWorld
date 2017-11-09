@@ -1,0 +1,186 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body{
+	background-image: url("bodyFruits.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+
+.formInsc{
+	width: 80%;
+}
+
+.header {
+	overflow: visible;
+	position: fixed;
+	height: 2.5%;
+	top:0px;
+	left:0px;
+	right: 0px;
+	background-color: #262626 ;
+	}
+.right {
+	overflow: visible;
+	color: white;
+	float:right;
+	margin-top: 2px;
+	padding-left: 1.5%;
+	padding-right: 4%;
+	border-left: 4px solid #fff;
+}
+#marge {
+	margin-right: 5%;
+}
+
+.menu_Droite{
+	margin-right: 20%;
+	overflow: visible;
+}
+.menu {
+	position: fixed;
+	height: 7.2%;
+	top:2.5%;
+	right:0px;
+	left:0px;
+	background-color: #666 ;
+	background-image:linear-gradient(#555555, #202020);
+	overflow: visible;
+
+}
+
+.ensembleBoutonMenu{
+	font-size: 9px;
+	font-weight: bold;
+	padding-right: 0%;
+	padding-left: 4%;
+	overflow: visible;
+	margin-top: -5px;
+}
+
+.menuBouton_recherche {	
+	color: white;
+	height: 30px;
+	vertical-align:5px;
+	border-radius: 15px;
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top :-4px;
+	background-image:linear-gradient(black,grey);
+
+	width: 150%;
+	border-width: 0.02em ;
+	border-left-width: 10px;
+	border-left-color: transparent;
+	overflow: auto;
+}
+
+.menuBouton {
+	color:red;
+	overflow: visible;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	display: inline-block;
+	padding-left:13%;
+	margin-top: 25px;
+
+}
+
+.grosNW{
+	overflow: visible;
+	font-family: Arial;
+	color: white;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: -3.7%;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 4px 9px 1px #000;
+}
+.grosNW:first-letter{
+	font-weight: normal;
+}
+
+.Footer{
+	font-family: arial;
+	font-size: 15.5px;
+	color:white;
+	position: fixed;
+	text-align: right;
+	top: 98%;
+	height:2%;
+	left:0%;
+	right: 0%;
+	padding-right: 1%;
+	background-color: #1E1E1F;
+}
+
+
+.connexion{
+	position: fixed;
+	background-color: #94B0AD;
+	width: 50%;
+	left:0%;
+	top: 9.9%;
+	height: 86.1%;
+/* border-right-width:2%;
+ border-style:solid;
+ border-color:red;*/
+}
+
+.inscription{
+	position: fixed;
+	background-color: #AFD7D1;
+	width: 50%;
+	left:50%;
+	top: 9.9%;
+	height: 86.1%;
+/* border-right-width:2%;
+ border-style:solid;
+ border-color:red;*/
+}
+
+
+input{
+	color: white;
+	height: 20px;
+	vertical-align:5px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-left: 15%;
+	padding-right: 0px;
+	margin-top :-4px;
+	background-image:linear-gradient(black,grey);
+	width: 30%;
+	border-width: 0.02em ;
+	border-left-width: 10px;
+	border-left-color: transparent;
+	overflow: auto;
+
+}
+
+fieldset {
+	border-width: 0px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: underline;
+}
+
+.forgot{
+	position: fixed;
+	left: 10%;
+	top: 31%;
+}
+
+.fail_pass{
+	position: fixed;
+	left:60%;
+	top :55%;
+}
